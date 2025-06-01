@@ -1,0 +1,16 @@
+{
+  "categories" : [
+
+  ],
+  "events" : [
+    {
+      "category_ids" : [
+
+      ],
+      "description" : "",
+      "id" : "A0CNO9LW4q2jgr8s4nsrU",
+      "name" : "Main Screen Opened"
+    }
+  ],
+  "workspace" : "test"
+}
