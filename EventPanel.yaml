@@ -1,9 +1,12 @@
 source: android
 plugin:
   kotlingen:
-    documentation: true
-    eventClassName: AnalyticsEvent
     generatedEventsPath: app/src/main/java/com/example/pizzadelivery/GeneratedAnalyticsEvents.kt
+    eventClassName: AnalyticsEvent
     packageName: com.example.pizzadelivery
+    documentation: true
 events:
 - id: A0CNO9LW4q2jgr8s4nsrU
+- id: Aae9pNlfoawHFaeM4ClwC
+  version: 2
+- id: Jd2R6diazU2cWzVguI8Rq
