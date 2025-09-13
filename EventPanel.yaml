@@ -1,10 +1,11 @@
+workspaceId: 00ab2c96-4e82-4166-b913-fb9aa7be6dbd
 source: android
 plugin:
   kotlingen:
-    generatedEventsPath: app/src/main/java/com/example/pizzadelivery/GeneratedAnalyticsEvents.kt
     eventClassName: AnalyticsEvent
-    packageName: com.example.pizzadelivery
+    generatedEventsPath: app/src/main/java/com/example/pizzadelivery/GeneratedAnalyticsEvents.kt
     documentation: true
+    packageName: com.example.pizzadelivery
 events:
 - id: A0CNO9LW4q2jgr8s4nsrU
 - id: Aae9pNlfoawHFaeM4ClwC
