@@ -54,26 +54,11 @@ val generateAnalyticsEvents by tasks.registering(Exec::class) {
     group = "code generation"
     description = "Generate analytics events using EventPanel CLI"
 
-    val eventpanelPath = when {
-        System.getProperty("os.name").lowercase().contains("mac") -> {
-            val homebrewPath = "/opt/homebrew/bin/eventpanel"
-            val systemPath = "eventpanel"
-            if (file(homebrewPath).exists()) homebrewPath else systemPath
-        }
-        else -> "eventpanel"
-    }
     println("Root project directory: ${rootProject.projectDir.absolutePath}")
 
-    commandLine(eventpanelPath, "generate")
+    commandLine("eventpanel", "generate")
 
     workingDir = rootProject.projectDir
-
-    commandLine(eventpanelPath, "generate")
-
-    doFirst {
-        file("src/main/java/com/example/pizzadelivery").mkdirs()
-        println("Running EventPanel CLI from: ${workingDir.absolutePath}")
-    }
 
     inputs.file(rootProject.file("EventPanel.yaml"))
     outputs.file("src/main/java/com/example/pizzadelivery/GeneratedAnalyticsEvents.kt")
