@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Legacy colors -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +8,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- EventPanel colors -->
+    <color name="ep_background">#FF0a0a0f</color>
+    <color name="ep_background_secondary">#FF12121a</color>
+    <color name="ep_card">#FF1a1a25</color>
+    <color name="ep_card_hover">#FF22222f</color>
+    
+    <color name="ep_border">#FF2a2a3a</color>
+    <color name="ep_border_active">#FF4a4a6a</color>
+    
+    <color name="ep_text_primary">#FFf0f0f5</color>
+    <color name="ep_text_secondary">#FF8888a0</color>
+    <color name="ep_text_muted">#FF5a5a70</color>
+    
+    <color name="ep_cyan">#FF00f5d4</color>
+    <color name="ep_pink">#FFff006e</color>
+    <color name="ep_purple">#FF8338ec</color>
+    <color name="ep_yellow">#FFffbe0b</color>
+    <color name="ep_blue">#FF3a86ff</color>
+    <color name="ep_green">#FF06d6a0</color>
+    <color name="ep_orange">#FFfb5607</color>
 </resources>
