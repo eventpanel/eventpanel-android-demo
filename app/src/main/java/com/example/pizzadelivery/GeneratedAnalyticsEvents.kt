@@ -28,7 +28,7 @@ internal object GeneratedAnalyticsEvents {
     }
 
     /**
-     * riggered when a user enters the checkout flow
+     * Triggered when a user enters the checkout flow
      */
     internal fun checkoutStarted(  
       cartId: String?,

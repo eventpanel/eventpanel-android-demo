@@ -1,14 +1,22 @@
-workspaceId: 00ab2c96-4e82-4166-b913-fb9aa7be6dbd
-source: android
+workspaceId: 98996b91-79c2-4bfa-9339-f559615cf0d2
+source: Android
 plugin:
   kotlingen:
-    eventClassName: AnalyticsEvent
-    outputFilePath: app/src/main/java/com/example/pizzadelivery/GeneratedAnalyticsEvents.kt
-    documentation: true
     shouldGenerateType: false
+    documentation: true
+    outputFilePath: app/src/main/java/com/example/pizzadelivery/GeneratedAnalyticsEvents.kt
     packageName: com.example.pizzadelivery
+    eventClassName: AnalyticsEvent
 events:
-- id: A0CNO9LW4q2jgr8s4nsrU
-- id: Aae9pNlfoawHFaeM4ClwC
+- id: vJYxYV2tXEZlGh3I9iB_I
   version: 2
-- id: Jd2R6diazU2cWzVguI8Rq
+- id: 5oYkQpzYj-47TPVna3KtH
+- id: gEUfBDQlXGAMcOgYzQ98_
+  version: 2
+- id: 4KYCSy_Dxo9im1342lj-q
+- id: c0A7K5TETHfyqBmlNgxzX
+- id: ReeBFYaGNMjcSAg5AWNZ6
+- id: 7x_C_nhcvdKoJezy8LRfq
+- id: CxjfQzKJoTblMNS6Dre16
+- id: V3IyudkmOanyBk_P6r7wd
+  version: 2
